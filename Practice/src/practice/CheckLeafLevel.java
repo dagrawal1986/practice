@@ -33,6 +33,8 @@ public class CheckLeafLevel {
 			
 	}
 	
+	//if leaves not at same level, returns -1
+	//in other cases, returns the height of the tree
 	public int checkLeafLevel(Node node){
 		if(node == null)
 			return 0;
